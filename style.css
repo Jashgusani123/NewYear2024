@@ -1,0 +1,26 @@
+.background{
+  height: 750px;
+  background-position: center;
+  flex-wrap: nowrap;
+}
+.text{
+  text-align: center  ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  background-image:url(/swirls-marble-ripples-agate-liquid-marble-texture-with-pink-colors-abstract-painting-background-wallpapers-posters-cards-invitations-websites-fluid-art_1258-103574.avif) ;
+  background-repeat:no-repeat ;
+  background-position:center ;
+
+}
+@media screen and (max-width: 768px){
+  .background{
+    height: 300px;
+    flex-wrap: wrap;
+  }
+  .text{
+  text-align: center  ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:11px;
+  }
+  
+}
